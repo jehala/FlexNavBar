@@ -1,0 +1,44 @@
+.nav {
+    background-color: rgb(78, 77, 77);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h1 {
+    color:white;
+    padding-left: 10px;
+}
+
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 20px;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li {
+    opacity: 0.75;
+    color: white;
+}
+
+ul  li:hover {
+    opacity: 1.0;
+}
+
+
+
+.btn {
+    background-color:teal;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    margin-right: 20px;
+
+}
